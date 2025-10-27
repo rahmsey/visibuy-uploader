@@ -1,16 +1,26 @@
-# React + Vite
+# Visibuy Product Verification Uploader
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Upload up to 5 product images for verification (JPEG / PNG).
 
-Currently, two official plugins are available:
+##  Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Desktop View**
+![Desktop Screenshot](./assets/screenshots/desktop.png)
 
-## React Compiler
+**Mobile View**
+![Mobile Screenshot](./assets/screenshots/mobile.png)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  About the Project
+A simple React image uploader built using React Hooks and plain CSS for styling.  
+It allows users to:
+- Upload multiple images (max 5)
+- Preview before submitting
+- Delete selected images
+- Simulate an upload progress bar
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## What I'd Add With More Time
+- Drag & drop image upload feature  
+- Integration with a backend or cloud storage service for real uploads  
+- Improved image compression or preview optimization  
+- Progress feedback with animations or better UI indicators  
+- Dark/light mode support  
